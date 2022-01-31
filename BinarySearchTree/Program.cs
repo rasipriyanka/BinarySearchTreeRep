@@ -7,7 +7,12 @@ namespace BinarySearchTree
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-           
+            //----------Creating  Object for the class------------------//
+            BinarySearchTree<int> binaryTree = new BinarySearchTree<int>(56);
+            //-----------Inserting the values to the Binary tree--------//
+            binaryTree.Insert(30);
+            binaryTree.Insert(70);
+            binaryTree.Display();
         }
     }
 }
